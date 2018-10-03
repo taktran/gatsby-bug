@@ -1,10 +1,5 @@
-# gatsby-starter-default
-The default Gatsby starter (Using Gatsby v1)
+## Gatsby bug (Gatsby v1)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-## Deploy
+A fork of [gatsby-starter-default@v1](https://github.com/gatsbyjs/gatsby-starter-default/tree/v1) to show a bug in `develop-static-entry.js`.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+See https://github.com/gatsbyjs/gatsby/pull/8596/

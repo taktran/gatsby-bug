@@ -27,7 +27,7 @@ export default class HTML extends React.Component {
     }
 
     return (
-      <html lang="en">
+      <html {...this.props.htmlAttributes} lang="en">
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -39,7 +39,7 @@ export default class HTML extends React.Component {
           <TypographyStyle typography={typography} />
           {css}
         </head>
-        <body>
+        <body {...this.props.bodyAttributes}>
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
